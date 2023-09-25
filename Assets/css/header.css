@@ -1,0 +1,35 @@
+.main-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.image-container {
+    display: flex;
+    max-width: 100%;
+}
+
+.image-container img {
+    display: inline;
+    width: 9rem;
+}
+
+.image-container h2 {
+    font-family: "Cookie", "Open Sans", sans-serif;
+    padding-top: 5rem;
+    align-items: center;
+}
+
+.main-header .main-nav ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.main-nav li {
+    list-style-type: none;
+    padding-top: 8rem;
+}
+
+.main-header .main-nav a {
+    text-decoration: none;
+}
