@@ -2,3 +2,20 @@
 @import url(main-content.css);
 @import url(footer.css);
 @import url(animations.css);
+
+@font-face {
+    font-family: "Cookie";
+    src: url(../../_FILES/Cookie/Cookie-Regular.ttf);
+}
+
+:root {
+    --pink: #F291B5;
+    --blue: #5BCCD9;
+    --green: #34BF7E;
+    --light-green: #5BD99E;
+    --red: #F27E63;
+}
+
+body {
+    font-family: "Cookie", "Open Sans", sans-serif;
+}
