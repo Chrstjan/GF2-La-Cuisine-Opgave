@@ -1,0 +1,43 @@
+.hero-section .hero-image-container {
+    position: relative;
+    padding: 1rem;
+}
+
+.hero-image-container img {
+    position: relative;
+    width: 100%
+}
+
+.hero-image-container h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 15rem; /* This needs to be made responsive */
+    padding-top: 6rem;
+    color: #fff;
+    font-family: "Cookie", "Open Sans", sans-serif;
+    font-size: 4.6rem;
+}
+
+.link-box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Moves the element 50% from the left edge of the container */
+    transform: translateX(-50%); /* Centers the element */
+}
+
+.link-box-container .pink-box {
+    height: 270px;
+    width: 200px;
+    background: #F291B597;
+}
+
+.pink-box h3{
+    text-align: center;
+    color: #fff;
+}
